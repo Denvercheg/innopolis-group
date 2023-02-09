@@ -9,6 +9,7 @@ html {
     margin: 0;
 }
 
+
 /* header */
 
 .header {
@@ -34,7 +35,6 @@ html {
     flex-wrap: wrap;
 }
 
-
 .btn {
     justify-self: center;
     font-size: 18px;
@@ -52,7 +52,7 @@ html {
 .menu-site > li {
     display: flex;
     flex-wrap: wrap;
- }
+}
 
 .menu-site__link {
     font-family: Roboto, sans-serif;
@@ -72,6 +72,7 @@ html {
     text-decoration: none;
 }
 
+
 /* main */
 
 .main {
@@ -80,13 +81,14 @@ html {
     margin: 0 auto;
     flex-grow: 1;
 }
+
 .main-heading {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-
 }
+
 .class-foto {
     width: 100%;
     max-width: 523px;
@@ -111,7 +113,33 @@ em {
     color: #CF5510;
 }
 
-    /* footer */
+/* foto */
+
+
+/* studens */
+
+
+
+
+
+.studen {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.students {
+    padding-left: 50px;
+}
+
+.student-name {
+    display: block;
+    text-align: center;
+}
+
+/* footer */
 
 .footer {
     width: 100%;
@@ -152,6 +180,5 @@ em {
         min-height: 80px;
     }
     li {
-        min-height: 50px;
-    }
-
+        min-height: 50px;}
+}
