@@ -338,5 +338,10 @@ container1 {
     li {
         min-height: 50px;
     }
+
+    .student {
+        display: block;
+    }
+    
 }
 
